@@ -12,5 +12,7 @@ jobs:
     - name: Print updated Msg 
       run: echo "Job2 Step1"
     - name: Print latest Msg
-      run: echo "Job2 Step2"    
+      run: |
+        echo "Job2 Step2"
+        exit 1        
       
