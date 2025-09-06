@@ -1,9 +1,6 @@
 name: Workflow-02
 on: 
-  push:
   pull_request:
-  schedule:
-    - cron: "*/2 * * * *"
   workflow_dispatch:  
 jobs:
   echo:
