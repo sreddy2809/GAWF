@@ -2,6 +2,9 @@ name: Workflow-02
 on: 
   push:
   pull_request:
+  schedule:
+    - corn: "*/2 * * * *"
+  workflow_disptch:  
 jobs:
   echo:
     runs-on: ubuntu-latest
