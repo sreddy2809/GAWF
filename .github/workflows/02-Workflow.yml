@@ -1,5 +1,7 @@
 name: Workflow-02
-on: push
+on: 
+  push:
+  pull_request:
 jobs:
   echo:
     runs-on: ubuntu-latest
